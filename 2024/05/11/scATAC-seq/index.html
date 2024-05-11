@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="http://example.com/2024/05/05/qpcr/"/>
+  <link rel="canonical" href="http://example.com/2024/05/11/scatac-seq/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -33,21 +33,21 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>qPCR - 凰年</title>
-  <meta name="keywords" content="qPCR,null">
+  <title>scATAC-seq - 凰年</title>
+  <meta name="keywords" content="scATAC-seq,null">
   <meta desc name="description" content="一枝独秀 - John Doe - 凰年">
   
 <meta property="og:type" content="article">
-<meta property="og:title" content="qPCR">
-<meta property="og:url" content="http://example.com/2024/05/05/qPCR/index.html">
+<meta property="og:title" content="scATAC-seq">
+<meta property="og:url" content="http://example.com/2024/05/11/scATAC-seq/index.html">
 <meta property="og:site_name" content="凰年">
-<meta property="og:description" content="基础知识PCR：聚合酶链式反应（Polymerase Chain Reaction），通过引物（合成的DNA片段）选择要扩增的基因片段，以DNA为模版，在DNA聚合酶和核苷酸底物的参与下，快速产生大量特定DNA片段，用于更详细的研究。   https:&#x2F;&#x2F;www.genome.gov&#x2F;genetics-glossary&#x2F;Polymerase-Chain-Reaction  qPCR:Real-ti">
+<meta property="og:description" content="概念scATAC-seqAssay for Transposase-Accessible Chromatin with highthroughput sequencing（ATAC-Seq） 即利用转座酶探究可接近性染色质高通量测序技术。 通过转座酶对染色质上松开的部位进行切割（这些位置是转录因子容易接近染色质DNA的地方）即转录行为更多发生的地方。 MNase、DNase、ATAC-seq的区别">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2024-05-05T07:00:09.000Z">
-<meta property="article:modified_time" content="2024-05-05T14:40:36.718Z">
+<meta property="article:published_time" content="2024-05-11T12:54:02.000Z">
+<meta property="article:modified_time" content="2024-05-11T15:20:48.801Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="qPCR">
+<meta property="article:tag" content="scATAC-seq">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -2499,7 +2499,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 <div id="l_main" class=''>
   <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="http://example.com/2024/05/05/qPCR/">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2024/05/11/scATAC-seq/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="凰年">
   </span>
@@ -2520,7 +2520,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       <h1 class="title" itemprop="name headline">
-        qPCR
+        scATAC-seq
       </h1>
       <div class='new-meta-box'>
         
@@ -2539,10 +2539,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
   <div class='new-meta-item category'>
     <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
-    <a class="category-link" href="/categories/%E5%9F%BA%E7%A1%80%E5%AE%9E%E9%AA%8C/">基础实验</a>
+    <a class="category-link" href="/categories/%E7%94%9F%E4%BF%A1/">生信</a>
     
       <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-        <a href="/categories/%E5%9F%BA%E7%A1%80%E5%AE%9E%E9%AA%8C/" itemprop="url"><span itemprop="name">基础实验</span></a>
+        <a href="/categories/%E7%94%9F%E4%BF%A1/" itemprop="url"><span itemprop="name">生信</span></a>
       </span>
     
   </div>
@@ -2551,10 +2551,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2024-05-05T15:00:09+08:00">
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2024-05-11T20:54:02+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
-    <p>发布于：May 5, 2024</p>
+    <p>发布于：May 11, 2024</p>
   </a>
 </div>
 
@@ -2577,100 +2577,73 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    <h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><p><strong>PCR</strong>：聚合酶链式反应（Polymerase Chain Reaction），通过引物（合成的DNA片段）选择要扩增的基因片段，以DNA为模版，在DNA聚合酶和核苷酸底物的参与下，快速产生大量特定DNA片段，用于更详细的研究。</p>
-<p><img src="/2024/05/05/qPCR/PCR.jpg" class="lazyload" data-srcset="/2024/05/05/qPCR/PCR.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
-<blockquote>
-<p><a target="_blank" rel="noopener" href="https://www.genome.gov/genetics-glossary/Polymerase-Chain-Reaction">https://www.genome.gov/genetics-glossary/Polymerase-Chain-Reaction</a></p>
-</blockquote>
-<p><strong>qPCR</strong>:Real-time PCR，指在PCR体系中加入荧光探针&#x2F;染料，利用荧光信号的积累实时监测整个PCR过程，最终通过CT值和标准曲线对未知模板进行定量分析的方法。</p>
-<p><img src="/2024/05/05/qPCR/qPCR.jpg" class="lazyload" data-srcset="/2024/05/05/qPCR/qPCR.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
-<blockquote>
-<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iu4s3Hbc_bw">https://www.youtube.com/watch?v=iu4s3Hbc_bw</a></p>
-</blockquote>
-<h2 id="组内protocol"><a href="#组内protocol" class="headerlink" title="组内protocol"></a>组内protocol</h2><h3 id="RNA提取（TRIzol法）"><a href="#RNA提取（TRIzol法）" class="headerlink" title="RNA提取（TRIzol法）"></a>RNA提取（TRIzol法）</h3><h3 id="组织"><a href="#组织" class="headerlink" title="组织"></a>组织</h3><ol>
-<li><p>提取组织并匀浆</p>
-<ul>
-<li>匀浆机提前预冷，取与样本数相同的匀浆管加入磁珠和1mlTRIzol</li>
-<li>剪取组织50mg（根据组织确定），加入匀浆管（可置于盖上剪碎使组织与TRIzol充分接触）</li>
-<li>组织匀浆：<em>6500rpm</em>，<em>15s</em>，<em>3次</em>，每次匀浆后置于<strong>冰</strong>上。（超声机根据组织不同，选择合适的频率和时间）</li>
-<li>室温放置5分钟，使TRIzol充分发挥作用。</li>
-</ul>
+    <h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><h3 id="scATAC-seq"><a href="#scATAC-seq" class="headerlink" title="scATAC-seq"></a>scATAC-seq</h3><p>Assay for Transposase-Accessible Chromatin with highthroughput sequencing（ATAC-Seq）</p>
+<p>即利用转座酶探究可接近性染色质高通量测序技术。</p>
+<p>通过转座酶对染色质上松开的部位进行切割（这些位置是转录因子容易接近染色质DNA的地方）即转录行为更多发生的地方。</p>
+<h3 id="MNase、DNase、ATAC-seq的区别"><a href="#MNase、DNase、ATAC-seq的区别" class="headerlink" title="MNase、DNase、ATAC-seq的区别"></a>MNase、DNase、ATAC-seq的区别</h3><h4 id="MNase"><a href="#MNase" class="headerlink" title="MNase"></a>MNase</h4><p>内切核糖酶–微球菌核酸酶(micrococcal nuclease, MNase, MN酶)处理染色质可以得到单个核小体。</p>
+<p><strong>核小体</strong>是染色质的基本结构，由DNA、蛋白质和RNA组成的一种致密结构。组蛋白是由2个H3-H4二聚体，2个H2A-H2B二聚体形成的八聚体，直径约为10 nm， 组蛋白八聚体和DNA结合在一起形成的核心颗粒包含146bp DNA。DNA暴露在核小体表面使得其能被特定的核酸酶接近并切割。</p>
+<p>![image-20240511214625702.png)</p>
+<h4 id="DNase"><a href="#DNase" class="headerlink" title="DNase"></a>DNase</h4><p>在双链体中特定的**超敏位点(hypersenitive site)**引入缺口，即是染色质中DNA由于未组装成通常核小体结构而特别暴露出的结构，这种敏感性可以反应染色质中DNA的可及性(accessible)，并可以被<code>DNase</code>酶切<a target="_blank" rel="noopener" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3416863/">1</a></p>
+<p><img src="/2024/05/11/scATAC-seq/image-20240511215820185.png" class="lazyload" data-srcset="/2024/05/11/scATAC-seq/image-20240511215820185.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20240511215820185"></p>
+<h4 id="Tn5转座酶"><a href="#Tn5转座酶" class="headerlink" title="Tn5转座酶"></a>Tn5转座酶</h4><h5 id="DNA转座"><a href="#DNA转座" class="headerlink" title="DNA转座"></a>DNA转座</h5><p>指一种由转座酶参与将DNA序列从染色体的一个区域搬运到另外一个区域的现象。</p>
+<p>Tn5转座酶：“标签片段化工具”，Tn5转座体可将其衔接子负载整合到可接近的染色质区域，不可接近的染色质则无法酶切。</p>
+<p><img src="/2024/05/11/scATAC-seq/image-20240511215014819.png" class="lazyload" data-srcset="/2024/05/11/scATAC-seq/image-20240511215014819.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20240511215014819"></p>
+<p><img src="/2024/05/11/scATAC-seq/image-20240511212824951.png" class="lazyload" data-srcset="/2024/05/11/scATAC-seq/image-20240511212824951.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20240511212824951"></p>
+<h4 id="FAIRE-Seq"><a href="#FAIRE-Seq" class="headerlink" title="FAIRE-Seq"></a>FAIRE-Seq</h4><p>先进行超声裂解，然后用酚-氯仿富集，不依赖酶和抗体，但是检测背景高，测序信噪比低，甲醛交联时间不好把握。</p>
+<p><img src="/2024/05/11/scATAC-seq/image-20240511214025766.png" class="lazyload" data-srcset="/2024/05/11/scATAC-seq/image-20240511214025766.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20240511214025766"></p>
+<h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><p><img src="/2024/05/11/scATAC-seq/image-20240511220322041.png" class="lazyload" data-srcset="/2024/05/11/scATAC-seq/image-20240511220322041.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20240511220322041"></p>
+<ol>
+<li>将目标组织样本解离成多个单细胞</li>
+<li>分散好的单细胞用10x的仪器处理，变成细胞；凝胶微珠；酶的混合微滴。</li>
+<li>带了DNA接头的转座酶和染色质中的DNA接触</li>
+<li>染色质中疏松部位的DNA裸露出来与转座酶发生转座反应</li>
+</ol>
+<p><img src="/2024/05/11/scATAC-seq/image-20240511221423709.png" class="lazyload" data-srcset="/2024/05/11/scATAC-seq/image-20240511221423709.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20240511221423709"></p>
+<ol start="5">
+<li>凝胶微珠上有很多的触手：P5：与illumina测序芯片结合直接用于测序的序列；Barcode:细胞的身份信息；Read 1 N：是与Tn5转座酶互补的序列；</li>
+</ol>
+<p><img src="/2024/05/11/scATAC-seq/image-20240511221533789.png" class="lazyload" data-srcset="/2024/05/11/scATAC-seq/image-20240511221533789.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20240511221533789"></p>
+<ol start="6">
+<li>Read2N为转座酶切割下来的DNA小的片段，在Tn5转座酶read1N与微珠结合后，在聚合酶的作用下，DNA片段就会延伸出Barcode和P5序列</li>
+</ol>
+<p><img src="/2024/05/11/scATAC-seq/image-20240511222531919.png" class="lazyload" data-srcset="/2024/05/11/scATAC-seq/image-20240511222531919.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20240511222531919"></p>
+<ol start="7">
+<li>建库测序</li>
+</ol>
+<h3 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h3><ol>
+<li><p><strong>鉴定重要转录因子：</strong>根据原理可以知道，ATAC所捕获染色质开放区一般是正在转录的那部分DNA序列的上下游，得到这些序列我们就可以对富集到的序列结合motif 分析，识别哪种转录因子参与了基因表达调控，最常见的就是去研究转录因子结合的启动子区域（对于抗体质量不好的转录因子，尤其有效）</p>
 </li>
-<li><p>匀浆-乳糜-分层</p>
-<ul>
-<li><p>加入氯仿200ul（TRIzol的1&#x2F;5的量）</p>
-<ul>
-<li>脂溶性的物质，蛋白质等有机物质在氯仿（主要物质：苯酚）中的溶解度更高</li>
-</ul>
+<li><p><strong>生成转录因子结合区域的特征(footprinting)：</strong>转录因子结合在DNA上后，它占有的空间阻碍了转座酶Tn5酶切在其他无核小体区域，这样就会留下一个一个小区域，称为<strong>足迹（footprint）</strong>，在这些区域中，reads由高覆盖率峰值突然下降。所以ATAC-seq footprints可以帮助我们查看转录因子在全基因组上结合的状态，主要应用于研究细胞重编程机制，染色质重塑因子，表观修饰对疾病的作用域、T细胞耗竭等等</p>
 </li>
-<li><p>剧烈震荡<em>5min</em>，呈乳状，静置<em>5min</em></p>
+<li><p><strong>生成表观基因组图谱</strong></p>
 </li>
-<li><p>离心<em>4℃</em>，<em>12000g</em>，<em>15min</em>，分三层</p>
-<ul>
-<li>水相：主要为RNA，少量DNA，因为在酸性的条件下，DNA在水中的溶解度较低</li>
-<li>白色沉淀：氯仿使蛋白质变性，经离心，存在于白色沉淀中</li>
-<li>氯仿、苯酚、蛋白质</li>
-</ul>
+<li><p><strong>得到在不同组织或不同条件下对应可及性区域。</strong></p>
 </li>
-<li><p>转移上清（一般有400ul，可自行调整）至EP管，勿接触白色沉淀</p>
-</li>
-</ul>
-</li>
-<li><p>上清-白色沉淀</p>
-<ul>
-<li>加入600ul异丙醇，上下轻微颠倒，<strong>冰上&#x2F;-20℃</strong>静置<em>10min</em><ul>
-<li>异丙醇为EP管内液体的1.5倍，异丙醇分子存在三个羟基，可以使RNA沉淀</li>
-</ul>
-</li>
-<li>离心<em>4℃</em>，<em>12000g</em>，<em>10min</em></li>
-<li>去除异丙醇，得到白色沉淀</li>
-</ul>
-</li>
-<li><p>白色沉淀洗涤-RNA水溶液</p>
-<ul>
-<li>1ml75%乙醇（TRIzol等量）清洗RNA沉淀，吹打</li>
-<li><em>4℃</em>，<em>7500g</em>，<em>5min</em>，<em>2次</em>，第二次反向离心</li>
-<li>去除乙醇后，室温放晾干（30min）</li>
-<li>加入30ulDEPC水（根据量调整），-80℃保存</li>
-</ul>
-</li>
-<li><p>试剂的认识</p>
-<ul>
-<li><strong>TRIzol</strong>：主要成分苯酚，可快速破坏细胞，使内容物释放，可以使蛋白质变性，但是不能有效抑制RNA酶活性；内含异硫氰酸胍和β-巯基乙醇等，可有效抑制RNA酶，保护RNA的完整性。</li>
-<li><strong>氯仿</strong>：作为有机溶剂，除去匀浆中的苯酚（苯酚对核酸有一定的损伤）；除去脂溶性杂质；使蛋白质变性，通过后续的离心可除去蛋白，抑制RNA酶的活性</li>
-<li><strong>异丙醇</strong>：沉淀RNA</li>
-</ul>
+<li><p><strong>得到核小体位置</strong></p>
 </li>
 </ol>
-<h3 id="细胞"><a href="#细胞" class="headerlink" title="细胞"></a>细胞</h3><p>存在剂量上的差别，六孔板和胰岛（100左右）加入400ulTRIzol，其他自行调整。</p>
-<table>
-<thead>
-<tr>
-<th>试剂</th>
-<th>品牌</th>
-<th>货号</th>
-<th>规格</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>TRIzol</td>
-<td>ambion</td>
-<td>15596026</td>
-<td>100ml</td>
-</tr>
-<tr>
-<td>氯仿</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
+<h2 id="数据解读"><a href="#数据解读" class="headerlink" title="数据解读"></a>数据解读</h2><p>发现在150bp前出现第一个峰，这个峰值代表的就是切掉了开放的染色质区域，同时伴随着规律的锯齿状小峰，基本是10bp一个小锯齿。在200bp左右处的峰值主要是由于切割核小体导致的，前面我们提到了，一个核小体缠绕的DNA大约在147bp，加上切割的时候不可能那么精确，所以大概在200bp。后续的峰值代表切下来两个、三个核小体以及n倍核小体情况，而且峰值是越来越低的，说明切割到染色质远端的核小体的概率是越来越低的。</p>
+<p><img src="/2024/05/11/scATAC-seq/image-20240511231226399.png" class="lazyload" data-srcset="/2024/05/11/scATAC-seq/image-20240511231226399.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20240511231226399"></p>
+<p>ATAC-seq与ChIP-seq calling出来的peak代表的意义是不同的:</p>
+<p><strong>ChIP-seq</strong>是用目的蛋白的抗体去拉蛋白，进而把目的蛋白结合的DNA片段也拉下来，然后把 DNA 片段映射到基因组，在基因组上的结合位置就会有DNA 片段堆叠，将这些DNA片段堆叠用柱状图画出来，就会得到所谓的Peak，<strong>所以这种情况一般只有一个峰</strong>；</p>
+<p><img src="/2024/05/11/scATAC-seq/image-20240511224809205.png" class="lazyload" data-srcset="/2024/05/11/scATAC-seq/image-20240511224809205.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20240511224809205"></p>
+<p><strong>ATAC-seq</strong>是靠Tn5转座酶切开染色质开放的DNA位点，Tn5转座酶Tn5在染色体上结合是概率事件，如何判断这个位置的reads足够为一个peak，要用软件MACS统计检测。当转录因子结合DNA时，会阻止Tn5转座酶在该位点上切割，所以会形成一个保护区域，reads无法富集到中间的部分，<strong>所以ATAC-seq转录因子结合的区域，一般会有一个山谷般的峰</strong>。chip-seq是由于TF一起沉淀下来的DNA fragment一般会大于TF的结合区域，read的位置并不是真实的TF结合的位置，需要向内shift；而ATAC-seq也需要shift，但一般是往两边shift。</p>
+<p><img src="/2024/05/11/scATAC-seq/image-20240511230730810.png" class="lazyload" data-srcset="/2024/05/11/scATAC-seq/image-20240511230730810.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20240511230730810"></p>
+<p>文章中经常可以看到<strong>以转录起始位点 (TSS) 为中心的峰图和热图（如下图）</strong>，Each line will be a transcript，通过染色质开放与否识别启动子区域、潜在的增强子或沉默子，因为启动子区域没有明确定义，在基因内部或距离TSS 2.5kb是比较常用的范围</p>
+<p><img src="/2024/05/11/scATAC-seq/image-20240511231456054.png" class="lazyload" data-srcset="/2024/05/11/scATAC-seq/image-20240511231456054.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20240511231456054"></p>
+<p>除了以转录起始位点 (TSS) 为中心，也可以特定基因peak为中心作图(左边是profile图，heatmap每行就是一个peak)</p>
+<p><img src="/2024/05/11/scATAC-seq/image-20240511231527055.png" class="lazyload" data-srcset="/2024/05/11/scATAC-seq/image-20240511231527055.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20240511231527055"></p>
+<p>文章里常可以看到可视化一个特定DNA区域（如下图RAC2基因）,在RAC2基因染色质开放区域，对应着CTCF转录因子结合。</p>
+<p><img src="/2024/05/11/scATAC-seq/image-20240511231549779.png" class="lazyload" data-srcset="/2024/05/11/scATAC-seq/image-20240511231549779.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20240511231549779"></p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><blockquote>
+<p>[1] Wang YM, Zhou P, Wang LY, Li ZH, Zhang YN, Zhang YX. Correlation between DNase I hypersensitive site distribution and gene expression in HeLa S3 cells. PLoS One. 2012;7(8):e42414. doi: 10.1371&#x2F;journal.pone.0042414IF: 3.7 Q2 . Epub 2012 Aug 10. PMID: 22900019; PMCID: PMC3416863.</p>
+</blockquote>
+<h2 id="文章整理"><a href="#文章整理" class="headerlink" title="文章整理"></a>文章整理</h2><blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.nature.com/articles/nmeth.2688">https://www.nature.com/articles/nmeth.2688</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/b272c846ef28">https://www.jianshu.com/p/b272c846ef28</a></p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/512163334">https://zhuanlan.zhihu.com/p/512163334</a></p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/397392754">https://zhuanlan.zhihu.com/p/397392754</a></p>
+</blockquote>
 
   </div>
   
@@ -2695,10 +2668,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2024-05-05T22:40:36+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2024-05-11T23:20:48+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：May 5, 2024</p>
+    <p>更新于：May 11, 2024</p>
   </a>
 </div>
 
@@ -2707,8 +2680,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
   
-  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/qPCR/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>qPCR</p></a></div>
-  <span hidden itemprop="keywords">qPCR</span>
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/scATAC-seq/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>scATAC-seq</p></a></div>
+  <span hidden itemprop="keywords">scATAC-seq</span>
 
 
         
@@ -2721,7 +2694,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2024/05/05/qPCR/&title=qPCR - 凰年&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2024/05/11/scATAC-seq/&title=scATAC-seq - 凰年&summary="
           
           >
           
@@ -2733,7 +2706,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2024/05/05/qPCR/&title=qPCR - 凰年&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2024/05/11/scATAC-seq/&title=scATAC-seq - 凰年&summary="
           
           >
           
@@ -2745,7 +2718,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2024/05/05/qPCR/&title=qPCR - 凰年&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2024/05/11/scATAC-seq/&title=scATAC-seq - 凰年&summary="
           
           >
           
@@ -2778,19 +2751,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class="prev-next">
       
-        <a class='prev' href='/2024/05/06/scRNAtoolVis-%E5%8D%95%E7%BB%86%E8%83%9E%E6%95%B0%E6%8D%AE%E7%BE%8E%E5%8C%96/'>
-          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>scRNAtoolVis_单细胞数据美化</p>
-          <p class='content'>
-https://github.com/junjunlab/scRNAtoolVis
-https://github.com/junjunlab/scRNAtoolVis
-Jun Z (2022)...</p>
-        </a>
       
-      
-        <a class='next' href='/2024/05/03/survival-analysis/'>
-          <p class='title'>生存分析<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
-          <p class='content'>基础知识定义：生存分析（survival analysis），发现与二分类事件相关的指标因素。
-特点：探究变量之间的关系一般为单个变量对应单个变量，生存分析需要单个变量对应两个变量：生存时间及生...</p>
+        <a class='next' href='/2024/05/11/%E6%9F%93%E8%89%B2%E8%B4%A8/'>
+          <p class='title'>染色质<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>基础知识染色质chromatin，由DNA、蛋白质和RNA组成的大分子复合物，是染色体的组成结构。只有当染色质开放时，基因才有表达的可能；细胞核内染色质的可及性随着外部环境及发育的改变而发生改变...</p>
         </a>
       
     </div>
@@ -2806,7 +2770,7 @@ Jun Z (2022)...</p>
 
   <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
-      <meta itemprop="discussionUrl" content="/2024/05/05/qPCR/index.html#comments">
+      <meta itemprop="discussionUrl" content="/2024/05/11/scATAC-seq/index.html#comments">
     </span>
     <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
@@ -2848,7 +2812,7 @@ Jun Z (2022)...</p>
 
 
     <div class='content'>
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86"><span class="toc-text">基础知识</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%84%E5%86%85protocol"><span class="toc-text">组内protocol</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#RNA%E6%8F%90%E5%8F%96%EF%BC%88TRIzol%E6%B3%95%EF%BC%89"><span class="toc-text">RNA提取（TRIzol法）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%84%E7%BB%87"><span class="toc-text">组织</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%86%E8%83%9E"><span class="toc-text">细胞</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A6%82%E5%BF%B5"><span class="toc-text">概念</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#scATAC-seq"><span class="toc-text">scATAC-seq</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#MNase%E3%80%81DNase%E3%80%81ATAC-seq%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-text">MNase、DNase、ATAC-seq的区别</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#MNase"><span class="toc-text">MNase</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#DNase"><span class="toc-text">DNase</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Tn5%E8%BD%AC%E5%BA%A7%E9%85%B6"><span class="toc-text">Tn5转座酶</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#DNA%E8%BD%AC%E5%BA%A7"><span class="toc-text">DNA转座</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#FAIRE-Seq"><span class="toc-text">FAIRE-Seq</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%81%E7%A8%8B"><span class="toc-text">流程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BA%94%E7%94%A8"><span class="toc-text">应用</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E8%A7%A3%E8%AF%BB"><span class="toc-text">数据解读</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE"><span class="toc-text">参考文献</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E7%AB%A0%E6%95%B4%E7%90%86"><span class="toc-text">文章整理</span></a></li></ol>
     </div>
   </section>
 
@@ -3539,7 +3503,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"凰年","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"一枝独秀"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"凰年"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/基础实验/","name":"基础实验"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2024/05/05/qPCR/","name":"qPCR"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"凰年","url":"http://example.com/","keywords":null,"description":"一枝独秀","author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"一枝独秀"},"publisher":{"@type":"Organization","name":"凰年","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"qPCR","description":"一枝独秀","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2024/05/05/qPCR/"},"author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"凰年","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2024/05/05/qPCR/","wordCount":0,"datePublished":"2024-05-05T07:00:09.000Z","dateModified":"2024-05-05T14:40:36.718Z","articleSection":"基础实验","keywords":"qPCR","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"凰年","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"一枝独秀"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"凰年"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/生信/","name":"生信"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2024/05/11/scATAC-seq/","name":"scATAC-seq"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"凰年","url":"http://example.com/","keywords":null,"description":"一枝独秀","author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"一枝独秀"},"publisher":{"@type":"Organization","name":"凰年","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"scATAC-seq","description":"一枝独秀","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2024/05/11/scATAC-seq/"},"author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"凰年","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2024/05/11/scATAC-seq/","wordCount":0,"datePublished":"2024-05-11T12:54:02.000Z","dateModified":"2024-05-11T15:20:48.801Z","articleSection":"生信","keywords":"scATAC-seq","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
